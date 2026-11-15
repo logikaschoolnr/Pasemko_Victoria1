@@ -1,0 +1,15 @@
+body {
+
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #33251f;
+    color:white;
+}
+        
+button{
+    color:#33251f; 
+    padding:10px;
+    border-radius:25px;
+}
+
