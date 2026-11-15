@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Висота на весь екран */
+  margin: 0;
+}
+    header {
+            background-color: #33251f;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }   
+/* Стилі картки (Desktop версія) */
+.product-card {
+  background-color: white;
+  width: 800px; /* Широка картка */
+  display: flex; /* Елементи в рядок */
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+  
+}
+.product-image {
+  width: 300px; /* Фіксована ширина картинки */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.product-info {
+  flex: 1; /* Займає решту місця */
+}
+h2 {
+  margin-top: 0;
+  color: #333;      
+}
+.price {
+  font-size: 24px;
+  color: #e63946;
+  ont-weight: bold;
+}
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+/* --- 📱 ТВОЯ РОБОТА ПОЧИНАЄТЬСЯ ТУТ --- */
+/* Напиши медіазапит для екранів менше 600px */
+ 
